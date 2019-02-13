@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64E415D222132BE2003AD28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E415D122132BE2003AD28C /* AppDelegate.swift */; };
-		64E415D422132BE2003AD28C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E415D322132BE2003AD28C /* ViewController.swift */; };
+		64E415D422132BE2003AD28C /* EasyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E415D322132BE2003AD28C /* EasyListViewController.swift */; };
 		64E415D722132BE2003AD28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E415D522132BE2003AD28C /* Main.storyboard */; };
 		64E415D922132BE4003AD28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E415D822132BE4003AD28C /* Assets.xcassets */; };
 		64E415DC22132BE4003AD28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E415DA22132BE4003AD28C /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		64E415CE22132BE2003AD28C /* EasyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E415D122132BE2003AD28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64E415D322132BE2003AD28C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64E415D322132BE2003AD28C /* EasyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyListViewController.swift; sourceTree = "<group>"; };
 		64E415D622132BE2003AD28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64E415D822132BE4003AD28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E415DB22132BE4003AD28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				64E415D122132BE2003AD28C /* AppDelegate.swift */,
-				64E415D322132BE2003AD28C /* ViewController.swift */,
+				64E415D322132BE2003AD28C /* EasyListViewController.swift */,
 				64E415D522132BE2003AD28C /* Main.storyboard */,
 				64E415D822132BE4003AD28C /* Assets.xcassets */,
 				64E415DA22132BE4003AD28C /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64E415D422132BE2003AD28C /* ViewController.swift in Sources */,
+				64E415D422132BE2003AD28C /* EasyListViewController.swift in Sources */,
 				64E415D222132BE2003AD28C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
