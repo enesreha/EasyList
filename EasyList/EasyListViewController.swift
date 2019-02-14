@@ -11,9 +11,14 @@ import UIKit
 class EasyListViewController: UITableViewController {
     
     var itemArray = ["Call the doctor", "Buy eggs", "Dye my hair"]
+    let defaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let items = defaults.array(forKey: "ToDoListArray") as? [String]{
+            itemArray = items
+        }
      
     }
     //MARK: - TableView Data Source Methods
@@ -49,6 +54,9 @@ class EasyListViewController: UITableViewController {
         let action = UIAlertAction(title: "Add Item", style: UIAlertAction.Style.default) { (action) in
            
             self.itemArray.append(textField.text!)
+            
+            self.defaults.set(self.itemArray, forKey: "ToDoListArray")
+           
             self.tableView.reloadData()
             
         }
